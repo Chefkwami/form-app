@@ -1,15 +1,12 @@
-import Buttons from "./components/Buttons";
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import {Toaster} from "react-hot-toast";
+
 
 function App() {
   return (
     <div>
-      <Header />
-      <Buttons/>
-      <MainContent/>
-      <Footer/>
+      <Toaster position="top-right" />
+      <HomePage/>
     </div>
   );
 }

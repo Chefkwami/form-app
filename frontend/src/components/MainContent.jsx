@@ -1,11 +1,11 @@
 import React from 'react'
 import illustration from "../assets/illustration.png";
-import style from "../components/MainContent.module.css"
+
 
 function MainContent() {
   return (
-    <div className={`flex justify-center item-center h-screen ${style.image}`}>
-      <img src={illustration} alt="illustration"/>
+    <div className={`flex justify-center items-center`}>
+      <img src={illustration} alt="illustration" className='sm:h-auto sm:mb-8 md:h-auto md:mb-12 lg:h-screen'/>
     </div>
   )
 }

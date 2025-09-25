@@ -7,8 +7,8 @@ function Header() {
     
     <div className="flex flex-col justify-center items-center">
       <img src={logo} alt="Ping-logo" className={style.header}/>
-      <h1 className={`text-8xl font-extralight text-neutral-400 tracking-wide ${style.new1}`}>We are launching <span className='font-bold text-neutral-950'>soon!</span></h1>
-      <p className={`text-2xl text-neutral-800 ${style.new2}`}>Subscribe and get notified</p>
+      <h1 className={`text-5xl font-normal text-neutral-400 tracking-wide ${style.new1} text-center`}>We are launching <span className='font-bold text-neutral-950'>soon!</span></h1>
+      <p className={`text-xl text-neutral-800 ${style.new2}`}>Subscribe and get notified</p>
     </div>
   
   )

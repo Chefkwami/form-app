@@ -1,13 +1,13 @@
 .button {
-    padding: 12px 30px;
+    padding: 15px 30px;
     border: none;
 }
 
 .input {
-    padding: 12px 100px
+    width: 26rem;
+    padding: 15px 30px;
 }
 
 .btnCon {
-    margin-bottom: 4rem;
-    ;
+    margin-bottom: 3rem;
 }
