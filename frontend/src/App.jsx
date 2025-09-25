@@ -1,6 +1,7 @@
 import Buttons from "./components/Buttons";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Buttons/>
       <MainContent/>
+      <Footer/>
     </div>
   );
 }
